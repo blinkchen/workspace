@@ -1,0 +1,71 @@
+import sys
+from mm_envs import *
+
+build_dynamic_flag = 0
+build_release_flag = 0
+build_bit_flag = 0
+if IS_MACHINE_64():
+    build_bit_flag = 1
+for i in xrange( len( sys.argv ) ):
+    if sys.argv[i] == '--generate-dynamic':
+        build_dynamic_flag = 1
+    if sys.argv[i] == '-p' and i+1<len(sys.argv) and sys.argv[i+1] == 'release':
+        build_release_flag = 1
+
+build_package_cmd = 'cd %s; chmod a+x ./prebuild.sh; ./prebuild.sh %s %s %d %d %d' % (SRC_DIR(), WORK_DIR(), OUT_DIR(), build_dynamic_flag, build_release_flag, build_bit_flag)
+os.system( build_package_cmd )
+
+link_protobuf_cmd='if [[ -e %s/%s/libprotobuf.so && -d %s/solib/ ]]; then cp -f %s/%s/libprotobuf.so %s/solib/; fi'%(WORK_DIR(),OUT_DIR(),WORK_DIR(),WORK_DIR(),OUT_DIR(),WORK_DIR())
+cc_library(
+    name = 'protobuf',
+    prebuilt = True,
+    prebuilt_srcs = [
+        'protobuf-2.3.0.tar.bz2',
+        'prebuild.sh',
+    ],
+    deps = [ 
+        '//mm3rd/glog:glog',
+        '#pthread',
+        '#z',
+    ],
+    export_incs = [
+        './include',
+    ],
+    postaction = link_protobuf_cmd,
+)
+
+link_protobuf_lite_cmd='if [[ -e %s/%s/libprotobuf-lite.so && -d %s/solib/ ]]; then cp -f %s/%s/libprotobuf-lite.so %s/solib/; fi'%(WORK_DIR(),OUT_DIR(),WORK_DIR(),WORK_DIR(),OUT_DIR(),WORK_DIR())
+cc_library(
+    name = 'protobuf-lite',
+    prebuilt = True,
+    prebuilt_srcs = [
+        'protobuf-2.3.0.tar.bz2',
+        'prebuild.sh',
+    ],
+    deps = [ 
+        '#pthread',
+        '#z',
+    ],
+    export_incs = [
+        './include',
+    ],
+    postaction = link_protobuf_lite_cmd,
+)
+
+link_protoc_cmd='if [[ -e %s/%s/libprotoc.so && -d %s/solib/ ]]; then cp -f %s/%s/libprotoc.so %s/solib/; fi'%(WORK_DIR(),OUT_DIR(),WORK_DIR(),WORK_DIR(),OUT_DIR(),WORK_DIR())
+cc_library(
+    name = 'protoc',
+    prebuilt = True,
+    prebuilt_srcs = [
+        'protobuf-2.3.0.tar.bz2',
+        'prebuild.sh',
+    ],
+    deps = [ 
+        ':protobuf',
+    ],
+    export_incs = [
+        './include',
+    ],
+    postaction = link_protoc_cmd,
+)
+

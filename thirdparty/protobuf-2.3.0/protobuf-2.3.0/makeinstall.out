@@ -1,0 +1,143 @@
+Making install in .
+make[1]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'
+make[2]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/pkgconfig" || /usr/bin/mkdir -p "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/pkgconfig"
+ /usr/bin/install -c -m 644 'protobuf.pc' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/pkgconfig/protobuf.pc'
+ /usr/bin/install -c -m 644 'protobuf-lite.pc' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/pkgconfig/protobuf-lite.pc'
+make[2]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'
+make[1]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'
+Making install in src
+make[1]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+make  install-am
+make[2]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+make[3]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+test -z "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib" || /usr/bin/mkdir -p "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c  'libprotobuf-lite.la' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf-lite.la'
+libtool: install: /usr/bin/install -c .libs/libprotobuf-lite.so.6.0.0 /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf-lite.so.6.0.0
+libtool: install: (cd /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib && { ln -s -f libprotobuf-lite.so.6.0.0 libprotobuf-lite.so.6 || { rm -f libprotobuf-lite.so.6 && ln -s libprotobuf-lite.so.6.0.0 libprotobuf-lite.so.6; }; })
+libtool: install: (cd /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib && { ln -s -f libprotobuf-lite.so.6.0.0 libprotobuf-lite.so || { rm -f libprotobuf-lite.so && ln -s libprotobuf-lite.so.6.0.0 libprotobuf-lite.so; }; })
+libtool: install: /usr/bin/install -c .libs/libprotobuf-lite.lai /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf-lite.la
+libtool: install: /usr/bin/install -c .libs/libprotobuf-lite.a /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf-lite.a
+libtool: install: chmod 644 /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf-lite.a
+libtool: install: ranlib /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf-lite.a
+libtool: finish: PATH="/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/sbin" ldconfig -n /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c  'libprotobuf.la' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf.la'
+libtool: install: /usr/bin/install -c .libs/libprotobuf.so.6.0.0 /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf.so.6.0.0
+libtool: install: (cd /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib && { ln -s -f libprotobuf.so.6.0.0 libprotobuf.so.6 || { rm -f libprotobuf.so.6 && ln -s libprotobuf.so.6.0.0 libprotobuf.so.6; }; })
+libtool: install: (cd /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib && { ln -s -f libprotobuf.so.6.0.0 libprotobuf.so || { rm -f libprotobuf.so && ln -s libprotobuf.so.6.0.0 libprotobuf.so; }; })
+libtool: install: /usr/bin/install -c .libs/libprotobuf.lai /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf.la
+libtool: install: /usr/bin/install -c .libs/libprotobuf.a /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf.a
+libtool: install: chmod 644 /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf.a
+libtool: install: ranlib /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotobuf.a
+libtool: finish: PATH="/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/sbin" ldconfig -n /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c  'libprotoc.la' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotoc.la'
+libtool: install: warning: relinking `libprotoc.la'
+libtool: install: (cd /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src; /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/libtool  --tag CXX --mode=relink g++ -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -version-info 6:0:0 -export-dynamic -no-undefined -o libprotoc.la -rpath /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib code_generator.lo command_line_interface.lo plugin.lo plugin.pb.lo subprocess.lo zip_writer.lo cpp_enum.lo cpp_enum_field.lo cpp_extension.lo cpp_field.lo cpp_file.lo cpp_generator.lo cpp_helpers.lo cpp_message.lo cpp_message_field.lo cpp_primitive_field.lo cpp_service.lo cpp_string_field.lo java_enum.lo java_enum_field.lo java_extension.lo java_field.lo java_file.lo java_generator.lo java_helpers.lo java_message.lo java_message_field.lo java_primitive_field.lo java_service.lo python_generator.lo libprotobuf.la )
+libtool: relink: g++ -shared -nostdlib /usr/lib64/../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbeginS.o  .libs/code_generator.o .libs/command_line_interface.o .libs/plugin.o .libs/plugin.pb.o .libs/subprocess.o .libs/zip_writer.o .libs/cpp_enum.o .libs/cpp_enum_field.o .libs/cpp_extension.o .libs/cpp_field.o .libs/cpp_file.o .libs/cpp_generator.o .libs/cpp_helpers.o .libs/cpp_message.o .libs/cpp_message_field.o .libs/cpp_primitive_field.o .libs/cpp_service.o .libs/cpp_string_field.o .libs/java_enum.o .libs/java_enum_field.o .libs/java_extension.o .libs/java_field.o .libs/java_file.o .libs/java_generator.o .libs/java_helpers.o .libs/java_message.o .libs/java_message_field.o .libs/java_primitive_field.o .libs/java_service.o .libs/python_generator.o   -Wl,-rpath -Wl,/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib -L/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib -lprotobuf -L/usr/lib64/../lib64 -L/usr/lib/../lib64 -L/home/blinkchen/lib64/../lib64 -L/home/blinkchen/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/home/blinkchen/lib64 -L/home/blinkchen/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtendS.o /usr/lib64/../lib64/crtn.o  -pthread -m64   -pthread -Wl,-soname -Wl,libprotoc.so.6 -o .libs/libprotoc.so.6.0.0
+libtool: install: /usr/bin/install -c .libs/libprotoc.so.6.0.0T /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotoc.so.6.0.0
+libtool: install: (cd /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib && { ln -s -f libprotoc.so.6.0.0 libprotoc.so.6 || { rm -f libprotoc.so.6 && ln -s libprotoc.so.6.0.0 libprotoc.so.6; }; })
+libtool: install: (cd /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib && { ln -s -f libprotoc.so.6.0.0 libprotoc.so || { rm -f libprotoc.so && ln -s libprotoc.so.6.0.0 libprotoc.so; }; })
+libtool: install: /usr/bin/install -c .libs/libprotoc.lai /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotoc.la
+libtool: install: /usr/bin/install -c .libs/libprotoc.a /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotoc.a
+libtool: install: chmod 644 /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotoc.a
+libtool: install: ranlib /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib/libprotoc.a
+libtool: finish: PATH="/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/home/blinkchen/.local/bin:/home/blinkchen/bin:/sbin" ldconfig -n /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//bin" || /usr/bin/mkdir -p "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//bin"
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c 'protoc' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//bin/protoc'
+libtool: install: /usr/bin/install -c .libs/protoc /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//bin/protoc
+test -z "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include" || /usr/bin/mkdir -p "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include"
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/descriptor.proto' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/descriptor.proto'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/plugin.proto' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/plugin.proto'
+test -z "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include" || /usr/bin/mkdir -p "/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include"
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/stubs/common.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/stubs/common.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/stubs/once.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/stubs/once.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/descriptor.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/descriptor.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/descriptor.pb.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/descriptor.pb.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/descriptor_database.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/descriptor_database.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/dynamic_message.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/dynamic_message.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/extension_set.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/extension_set.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/generated_message_util.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/generated_message_util.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/generated_message_reflection.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/generated_message_reflection.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/message.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/message.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/message_lite.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/message_lite.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/reflection_ops.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/reflection_ops.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/repeated_field.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/repeated_field.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/service.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/service.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/text_format.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/text_format.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/unknown_field_set.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/unknown_field_set.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/wire_format.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/wire_format.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/wire_format_lite.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/wire_format_lite.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/wire_format_lite_inl.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/wire_format_lite_inl.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/io/coded_stream.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/io/coded_stream.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/io/printer.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/io/printer.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/io/tokenizer.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/io/tokenizer.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/io/zero_copy_stream.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/io/zero_copy_stream.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/io/zero_copy_stream_impl.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/io/zero_copy_stream_impl.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/io/zero_copy_stream_impl_lite.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/io/zero_copy_stream_impl_lite.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/code_generator.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/code_generator.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/command_line_interface.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/command_line_interface.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/importer.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/importer.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/parser.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/parser.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/plugin.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/plugin.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/plugin.pb.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/plugin.pb.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/cpp/cpp_generator.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/cpp/cpp_generator.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/java/java_generator.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/java/java_generator.h'
+ /bin/sh /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/install-sh -c -m 644 'google/protobuf/compiler/python/python_generator.h' '/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//include/google/protobuf/compiler/python/python_generator.h'
+make[3]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+make[2]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+make[1]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'

@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/example_copystack.dir/example_copystack.cpp.o  -o example_copystack -rdynamic libcolib.a -lpthread -ldl 

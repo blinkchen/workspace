@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/example_echosvr.dir/example_echosvr.cpp.o  -o example_echosvr -rdynamic libcolib.a -lpthread -ldl 

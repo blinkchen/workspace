@@ -1,0 +1,11 @@
+/home/blinkchen/workspace/comm/libco/CMakeFiles/colib_shared.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/colib_static.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_closure.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_cond.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_copystack.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_echocli.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_echosvr.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_poll.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_setenv.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_specific.dir
+/home/blinkchen/workspace/comm/libco/CMakeFiles/example_thread.dir

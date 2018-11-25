@@ -1,0 +1,896 @@
+make  all-recursive
+make[1]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'
+Making all in .
+make[2]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'
+make[2]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'
+Making all in src
+make[2]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o `test -f 'google/protobuf/compiler/main.cc' || echo './'`google/protobuf/compiler/main.cc
+mv -f .deps/main.Tpo .deps/main.Po
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT common.lo -MD -MP -MF .deps/common.Tpo -c -o common.lo `test -f 'google/protobuf/stubs/common.cc' || echo './'`google/protobuf/stubs/common.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT common.lo -MD -MP -MF .deps/common.Tpo -c google/protobuf/stubs/common.cc  -fPIC -DPIC -o .libs/common.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT common.lo -MD -MP -MF .deps/common.Tpo -c google/protobuf/stubs/common.cc -o common.o >/dev/null 2>&1
+mv -f .deps/common.Tpo .deps/common.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT once.lo -MD -MP -MF .deps/once.Tpo -c -o once.lo `test -f 'google/protobuf/stubs/once.cc' || echo './'`google/protobuf/stubs/once.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT once.lo -MD -MP -MF .deps/once.Tpo -c google/protobuf/stubs/once.cc  -fPIC -DPIC -o .libs/once.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT once.lo -MD -MP -MF .deps/once.Tpo -c google/protobuf/stubs/once.cc -o once.o >/dev/null 2>&1
+mv -f .deps/once.Tpo .deps/once.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT hash.lo -MD -MP -MF .deps/hash.Tpo -c -o hash.lo `test -f 'google/protobuf/stubs/hash.cc' || echo './'`google/protobuf/stubs/hash.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT hash.lo -MD -MP -MF .deps/hash.Tpo -c google/protobuf/stubs/hash.cc  -fPIC -DPIC -o .libs/hash.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT hash.lo -MD -MP -MF .deps/hash.Tpo -c google/protobuf/stubs/hash.cc -o hash.o >/dev/null 2>&1
+mv -f .deps/hash.Tpo .deps/hash.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT extension_set.lo -MD -MP -MF .deps/extension_set.Tpo -c -o extension_set.lo `test -f 'google/protobuf/extension_set.cc' || echo './'`google/protobuf/extension_set.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT extension_set.lo -MD -MP -MF .deps/extension_set.Tpo -c google/protobuf/extension_set.cc  -fPIC -DPIC -o .libs/extension_set.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT extension_set.lo -MD -MP -MF .deps/extension_set.Tpo -c google/protobuf/extension_set.cc -o extension_set.o >/dev/null 2>&1
+mv -f .deps/extension_set.Tpo .deps/extension_set.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT generated_message_util.lo -MD -MP -MF .deps/generated_message_util.Tpo -c -o generated_message_util.lo `test -f 'google/protobuf/generated_message_util.cc' || echo './'`google/protobuf/generated_message_util.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT generated_message_util.lo -MD -MP -MF .deps/generated_message_util.Tpo -c google/protobuf/generated_message_util.cc  -fPIC -DPIC -o .libs/generated_message_util.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT generated_message_util.lo -MD -MP -MF .deps/generated_message_util.Tpo -c google/protobuf/generated_message_util.cc -o generated_message_util.o >/dev/null 2>&1
+mv -f .deps/generated_message_util.Tpo .deps/generated_message_util.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT message_lite.lo -MD -MP -MF .deps/message_lite.Tpo -c -o message_lite.lo `test -f 'google/protobuf/message_lite.cc' || echo './'`google/protobuf/message_lite.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT message_lite.lo -MD -MP -MF .deps/message_lite.Tpo -c google/protobuf/message_lite.cc  -fPIC -DPIC -o .libs/message_lite.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT message_lite.lo -MD -MP -MF .deps/message_lite.Tpo -c google/protobuf/message_lite.cc -o message_lite.o >/dev/null 2>&1
+mv -f .deps/message_lite.Tpo .deps/message_lite.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT repeated_field.lo -MD -MP -MF .deps/repeated_field.Tpo -c -o repeated_field.lo `test -f 'google/protobuf/repeated_field.cc' || echo './'`google/protobuf/repeated_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT repeated_field.lo -MD -MP -MF .deps/repeated_field.Tpo -c google/protobuf/repeated_field.cc  -fPIC -DPIC -o .libs/repeated_field.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT repeated_field.lo -MD -MP -MF .deps/repeated_field.Tpo -c google/protobuf/repeated_field.cc -o repeated_field.o >/dev/null 2>&1
+mv -f .deps/repeated_field.Tpo .deps/repeated_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT wire_format_lite.lo -MD -MP -MF .deps/wire_format_lite.Tpo -c -o wire_format_lite.lo `test -f 'google/protobuf/wire_format_lite.cc' || echo './'`google/protobuf/wire_format_lite.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT wire_format_lite.lo -MD -MP -MF .deps/wire_format_lite.Tpo -c google/protobuf/wire_format_lite.cc  -fPIC -DPIC -o .libs/wire_format_lite.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT wire_format_lite.lo -MD -MP -MF .deps/wire_format_lite.Tpo -c google/protobuf/wire_format_lite.cc -o wire_format_lite.o >/dev/null 2>&1
+mv -f .deps/wire_format_lite.Tpo .deps/wire_format_lite.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT coded_stream.lo -MD -MP -MF .deps/coded_stream.Tpo -c -o coded_stream.lo `test -f 'google/protobuf/io/coded_stream.cc' || echo './'`google/protobuf/io/coded_stream.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT coded_stream.lo -MD -MP -MF .deps/coded_stream.Tpo -c google/protobuf/io/coded_stream.cc  -fPIC -DPIC -o .libs/coded_stream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT coded_stream.lo -MD -MP -MF .deps/coded_stream.Tpo -c google/protobuf/io/coded_stream.cc -o coded_stream.o >/dev/null 2>&1
+mv -f .deps/coded_stream.Tpo .deps/coded_stream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT zero_copy_stream.lo -MD -MP -MF .deps/zero_copy_stream.Tpo -c -o zero_copy_stream.lo `test -f 'google/protobuf/io/zero_copy_stream.cc' || echo './'`google/protobuf/io/zero_copy_stream.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zero_copy_stream.lo -MD -MP -MF .deps/zero_copy_stream.Tpo -c google/protobuf/io/zero_copy_stream.cc  -fPIC -DPIC -o .libs/zero_copy_stream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zero_copy_stream.lo -MD -MP -MF .deps/zero_copy_stream.Tpo -c google/protobuf/io/zero_copy_stream.cc -o zero_copy_stream.o >/dev/null 2>&1
+mv -f .deps/zero_copy_stream.Tpo .deps/zero_copy_stream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT zero_copy_stream_impl_lite.lo -MD -MP -MF .deps/zero_copy_stream_impl_lite.Tpo -c -o zero_copy_stream_impl_lite.lo `test -f 'google/protobuf/io/zero_copy_stream_impl_lite.cc' || echo './'`google/protobuf/io/zero_copy_stream_impl_lite.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zero_copy_stream_impl_lite.lo -MD -MP -MF .deps/zero_copy_stream_impl_lite.Tpo -c google/protobuf/io/zero_copy_stream_impl_lite.cc  -fPIC -DPIC -o .libs/zero_copy_stream_impl_lite.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zero_copy_stream_impl_lite.lo -MD -MP -MF .deps/zero_copy_stream_impl_lite.Tpo -c google/protobuf/io/zero_copy_stream_impl_lite.cc -o zero_copy_stream_impl_lite.o >/dev/null 2>&1
+mv -f .deps/zero_copy_stream_impl_lite.Tpo .deps/zero_copy_stream_impl_lite.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT strutil.lo -MD -MP -MF .deps/strutil.Tpo -c -o strutil.lo `test -f 'google/protobuf/stubs/strutil.cc' || echo './'`google/protobuf/stubs/strutil.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT strutil.lo -MD -MP -MF .deps/strutil.Tpo -c google/protobuf/stubs/strutil.cc  -fPIC -DPIC -o .libs/strutil.o
+In file included from ./google/protobuf/stubs/strutil.h:38:0,
+                 from google/protobuf/stubs/strutil.cc:33:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+google/protobuf/stubs/strutil.cc: In function ‘char* google::protobuf::DoubleToBuffer(double, char*)’:
+google/protobuf/stubs/strutil.cc:1013:39: warning: typedef ‘DBL_DIG_is_too_big’ locally defined but not used [-Wunused-local-typedefs]
+   GOOGLE_COMPILE_ASSERT(DBL_DIG < 20, DBL_DIG_is_too_big);
+                                       ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+google/protobuf/stubs/strutil.cc: In function ‘char* google::protobuf::FloatToBuffer(float, char*)’:
+google/protobuf/stubs/strutil.cc:1068:39: warning: typedef ‘FLT_DIG_is_too_big’ locally defined but not used [-Wunused-local-typedefs]
+   GOOGLE_COMPILE_ASSERT(FLT_DIG < 10, FLT_DIG_is_too_big);
+                                       ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT strutil.lo -MD -MP -MF .deps/strutil.Tpo -c google/protobuf/stubs/strutil.cc -o strutil.o >/dev/null 2>&1
+mv -f .deps/strutil.Tpo .deps/strutil.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT substitute.lo -MD -MP -MF .deps/substitute.Tpo -c -o substitute.lo `test -f 'google/protobuf/stubs/substitute.cc' || echo './'`google/protobuf/stubs/substitute.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT substitute.lo -MD -MP -MF .deps/substitute.Tpo -c google/protobuf/stubs/substitute.cc  -fPIC -DPIC -o .libs/substitute.o
+In file included from ./google/protobuf/stubs/substitute.h:35:0,
+                 from google/protobuf/stubs/substitute.cc:33:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT substitute.lo -MD -MP -MF .deps/substitute.Tpo -c google/protobuf/stubs/substitute.cc -o substitute.o >/dev/null 2>&1
+mv -f .deps/substitute.Tpo .deps/substitute.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT structurally_valid.lo -MD -MP -MF .deps/structurally_valid.Tpo -c -o structurally_valid.lo `test -f 'google/protobuf/stubs/structurally_valid.cc' || echo './'`google/protobuf/stubs/structurally_valid.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT structurally_valid.lo -MD -MP -MF .deps/structurally_valid.Tpo -c google/protobuf/stubs/structurally_valid.cc  -fPIC -DPIC -o .libs/structurally_valid.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT structurally_valid.lo -MD -MP -MF .deps/structurally_valid.Tpo -c google/protobuf/stubs/structurally_valid.cc -o structurally_valid.o >/dev/null 2>&1
+mv -f .deps/structurally_valid.Tpo .deps/structurally_valid.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT descriptor.lo -MD -MP -MF .deps/descriptor.Tpo -c -o descriptor.lo `test -f 'google/protobuf/descriptor.cc' || echo './'`google/protobuf/descriptor.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT descriptor.lo -MD -MP -MF .deps/descriptor.Tpo -c google/protobuf/descriptor.cc  -fPIC -DPIC -o .libs/descriptor.o
+In file included from ./google/protobuf/stubs/hash.h:39:0,
+                 from google/protobuf/descriptor.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT descriptor.lo -MD -MP -MF .deps/descriptor.Tpo -c google/protobuf/descriptor.cc -o descriptor.o >/dev/null 2>&1
+mv -f .deps/descriptor.Tpo .deps/descriptor.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT descriptor.pb.lo -MD -MP -MF .deps/descriptor.pb.Tpo -c -o descriptor.pb.lo `test -f 'google/protobuf/descriptor.pb.cc' || echo './'`google/protobuf/descriptor.pb.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT descriptor.pb.lo -MD -MP -MF .deps/descriptor.pb.Tpo -c google/protobuf/descriptor.pb.cc  -fPIC -DPIC -o .libs/descriptor.pb.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT descriptor.pb.lo -MD -MP -MF .deps/descriptor.pb.Tpo -c google/protobuf/descriptor.pb.cc -o descriptor.pb.o >/dev/null 2>&1
+mv -f .deps/descriptor.pb.Tpo .deps/descriptor.pb.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT descriptor_database.lo -MD -MP -MF .deps/descriptor_database.Tpo -c -o descriptor_database.lo `test -f 'google/protobuf/descriptor_database.cc' || echo './'`google/protobuf/descriptor_database.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT descriptor_database.lo -MD -MP -MF .deps/descriptor_database.Tpo -c google/protobuf/descriptor_database.cc  -fPIC -DPIC -o .libs/descriptor_database.o
+In file included from ./google/protobuf/descriptor.h:59:0,
+                 from ./google/protobuf/descriptor_database.h:44,
+                 from google/protobuf/descriptor_database.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT descriptor_database.lo -MD -MP -MF .deps/descriptor_database.Tpo -c google/protobuf/descriptor_database.cc -o descriptor_database.o >/dev/null 2>&1
+mv -f .deps/descriptor_database.Tpo .deps/descriptor_database.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT dynamic_message.lo -MD -MP -MF .deps/dynamic_message.Tpo -c -o dynamic_message.lo `test -f 'google/protobuf/dynamic_message.cc' || echo './'`google/protobuf/dynamic_message.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT dynamic_message.lo -MD -MP -MF .deps/dynamic_message.Tpo -c google/protobuf/dynamic_message.cc  -fPIC -DPIC -o .libs/dynamic_message.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT dynamic_message.lo -MD -MP -MF .deps/dynamic_message.Tpo -c google/protobuf/dynamic_message.cc -o dynamic_message.o >/dev/null 2>&1
+mv -f .deps/dynamic_message.Tpo .deps/dynamic_message.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT extension_set_heavy.lo -MD -MP -MF .deps/extension_set_heavy.Tpo -c -o extension_set_heavy.lo `test -f 'google/protobuf/extension_set_heavy.cc' || echo './'`google/protobuf/extension_set_heavy.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT extension_set_heavy.lo -MD -MP -MF .deps/extension_set_heavy.Tpo -c google/protobuf/extension_set_heavy.cc  -fPIC -DPIC -o .libs/extension_set_heavy.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT extension_set_heavy.lo -MD -MP -MF .deps/extension_set_heavy.Tpo -c google/protobuf/extension_set_heavy.cc -o extension_set_heavy.o >/dev/null 2>&1
+mv -f .deps/extension_set_heavy.Tpo .deps/extension_set_heavy.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT generated_message_reflection.lo -MD -MP -MF .deps/generated_message_reflection.Tpo -c -o generated_message_reflection.lo `test -f 'google/protobuf/generated_message_reflection.cc' || echo './'`google/protobuf/generated_message_reflection.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT generated_message_reflection.lo -MD -MP -MF .deps/generated_message_reflection.Tpo -c google/protobuf/generated_message_reflection.cc  -fPIC -DPIC -o .libs/generated_message_reflection.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT generated_message_reflection.lo -MD -MP -MF .deps/generated_message_reflection.Tpo -c google/protobuf/generated_message_reflection.cc -o generated_message_reflection.o >/dev/null 2>&1
+mv -f .deps/generated_message_reflection.Tpo .deps/generated_message_reflection.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT message.lo -MD -MP -MF .deps/message.Tpo -c -o message.lo `test -f 'google/protobuf/message.cc' || echo './'`google/protobuf/message.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT message.lo -MD -MP -MF .deps/message.Tpo -c google/protobuf/message.cc  -fPIC -DPIC -o .libs/message.o
+In file included from ./google/protobuf/stubs/hash.h:39:0,
+                 from google/protobuf/message.cc:36:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT message.lo -MD -MP -MF .deps/message.Tpo -c google/protobuf/message.cc -o message.o >/dev/null 2>&1
+mv -f .deps/message.Tpo .deps/message.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT reflection_ops.lo -MD -MP -MF .deps/reflection_ops.Tpo -c -o reflection_ops.lo `test -f 'google/protobuf/reflection_ops.cc' || echo './'`google/protobuf/reflection_ops.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT reflection_ops.lo -MD -MP -MF .deps/reflection_ops.Tpo -c google/protobuf/reflection_ops.cc  -fPIC -DPIC -o .libs/reflection_ops.o
+In file included from ./google/protobuf/message_lite.h:42:0,
+                 from ./google/protobuf/message.h:122,
+                 from ./google/protobuf/reflection_ops.h:41,
+                 from google/protobuf/reflection_ops.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT reflection_ops.lo -MD -MP -MF .deps/reflection_ops.Tpo -c google/protobuf/reflection_ops.cc -o reflection_ops.o >/dev/null 2>&1
+mv -f .deps/reflection_ops.Tpo .deps/reflection_ops.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT service.lo -MD -MP -MF .deps/service.Tpo -c -o service.lo `test -f 'google/protobuf/service.cc' || echo './'`google/protobuf/service.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT service.lo -MD -MP -MF .deps/service.Tpo -c google/protobuf/service.cc  -fPIC -DPIC -o .libs/service.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT service.lo -MD -MP -MF .deps/service.Tpo -c google/protobuf/service.cc -o service.o >/dev/null 2>&1
+mv -f .deps/service.Tpo .deps/service.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT text_format.lo -MD -MP -MF .deps/text_format.Tpo -c -o text_format.lo `test -f 'google/protobuf/text_format.cc' || echo './'`google/protobuf/text_format.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT text_format.lo -MD -MP -MF .deps/text_format.Tpo -c google/protobuf/text_format.cc  -fPIC -DPIC -o .libs/text_format.o
+In file included from ./google/protobuf/message_lite.h:42:0,
+                 from ./google/protobuf/message.h:122,
+                 from ./google/protobuf/text_format.h:42,
+                 from google/protobuf/text_format.cc:41:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT text_format.lo -MD -MP -MF .deps/text_format.Tpo -c google/protobuf/text_format.cc -o text_format.o >/dev/null 2>&1
+mv -f .deps/text_format.Tpo .deps/text_format.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT unknown_field_set.lo -MD -MP -MF .deps/unknown_field_set.Tpo -c -o unknown_field_set.lo `test -f 'google/protobuf/unknown_field_set.cc' || echo './'`google/protobuf/unknown_field_set.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT unknown_field_set.lo -MD -MP -MF .deps/unknown_field_set.Tpo -c google/protobuf/unknown_field_set.cc  -fPIC -DPIC -o .libs/unknown_field_set.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT unknown_field_set.lo -MD -MP -MF .deps/unknown_field_set.Tpo -c google/protobuf/unknown_field_set.cc -o unknown_field_set.o >/dev/null 2>&1
+mv -f .deps/unknown_field_set.Tpo .deps/unknown_field_set.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT wire_format.lo -MD -MP -MF .deps/wire_format.Tpo -c -o wire_format.lo `test -f 'google/protobuf/wire_format.cc' || echo './'`google/protobuf/wire_format.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT wire_format.lo -MD -MP -MF .deps/wire_format.Tpo -c google/protobuf/wire_format.cc  -fPIC -DPIC -o .libs/wire_format.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT wire_format.lo -MD -MP -MF .deps/wire_format.Tpo -c google/protobuf/wire_format.cc -o wire_format.o >/dev/null 2>&1
+mv -f .deps/wire_format.Tpo .deps/wire_format.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT gzip_stream.lo -MD -MP -MF .deps/gzip_stream.Tpo -c -o gzip_stream.lo `test -f 'google/protobuf/io/gzip_stream.cc' || echo './'`google/protobuf/io/gzip_stream.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT gzip_stream.lo -MD -MP -MF .deps/gzip_stream.Tpo -c google/protobuf/io/gzip_stream.cc  -fPIC -DPIC -o .libs/gzip_stream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT gzip_stream.lo -MD -MP -MF .deps/gzip_stream.Tpo -c google/protobuf/io/gzip_stream.cc -o gzip_stream.o >/dev/null 2>&1
+mv -f .deps/gzip_stream.Tpo .deps/gzip_stream.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT printer.lo -MD -MP -MF .deps/printer.Tpo -c -o printer.lo `test -f 'google/protobuf/io/printer.cc' || echo './'`google/protobuf/io/printer.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT printer.lo -MD -MP -MF .deps/printer.Tpo -c google/protobuf/io/printer.cc  -fPIC -DPIC -o .libs/printer.o
+In file included from ./google/protobuf/io/printer.h:42:0,
+                 from google/protobuf/io/printer.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT printer.lo -MD -MP -MF .deps/printer.Tpo -c google/protobuf/io/printer.cc -o printer.o >/dev/null 2>&1
+mv -f .deps/printer.Tpo .deps/printer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT tokenizer.lo -MD -MP -MF .deps/tokenizer.Tpo -c -o tokenizer.lo `test -f 'google/protobuf/io/tokenizer.cc' || echo './'`google/protobuf/io/tokenizer.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT tokenizer.lo -MD -MP -MF .deps/tokenizer.Tpo -c google/protobuf/io/tokenizer.cc  -fPIC -DPIC -o .libs/tokenizer.o
+In file included from ./google/protobuf/io/tokenizer.h:41:0,
+                 from google/protobuf/io/tokenizer.cc:91:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT tokenizer.lo -MD -MP -MF .deps/tokenizer.Tpo -c google/protobuf/io/tokenizer.cc -o tokenizer.o >/dev/null 2>&1
+mv -f .deps/tokenizer.Tpo .deps/tokenizer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT zero_copy_stream_impl.lo -MD -MP -MF .deps/zero_copy_stream_impl.Tpo -c -o zero_copy_stream_impl.lo `test -f 'google/protobuf/io/zero_copy_stream_impl.cc' || echo './'`google/protobuf/io/zero_copy_stream_impl.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zero_copy_stream_impl.lo -MD -MP -MF .deps/zero_copy_stream_impl.Tpo -c google/protobuf/io/zero_copy_stream_impl.cc  -fPIC -DPIC -o .libs/zero_copy_stream_impl.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zero_copy_stream_impl.lo -MD -MP -MF .deps/zero_copy_stream_impl.Tpo -c google/protobuf/io/zero_copy_stream_impl.cc -o zero_copy_stream_impl.o >/dev/null 2>&1
+mv -f .deps/zero_copy_stream_impl.Tpo .deps/zero_copy_stream_impl.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT importer.lo -MD -MP -MF .deps/importer.Tpo -c -o importer.lo `test -f 'google/protobuf/compiler/importer.cc' || echo './'`google/protobuf/compiler/importer.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT importer.lo -MD -MP -MF .deps/importer.Tpo -c google/protobuf/compiler/importer.cc  -fPIC -DPIC -o .libs/importer.o
+In file included from ./google/protobuf/descriptor.h:59:0,
+                 from ./google/protobuf/compiler/importer.h:44,
+                 from google/protobuf/compiler/importer.cc:47:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT importer.lo -MD -MP -MF .deps/importer.Tpo -c google/protobuf/compiler/importer.cc -o importer.o >/dev/null 2>&1
+mv -f .deps/importer.Tpo .deps/importer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c -o parser.lo `test -f 'google/protobuf/compiler/parser.cc' || echo './'`google/protobuf/compiler/parser.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c google/protobuf/compiler/parser.cc  -fPIC -DPIC -o .libs/parser.o
+In file included from ./google/protobuf/stubs/hash.h:39:0,
+                 from google/protobuf/compiler/parser.cc:38:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c google/protobuf/compiler/parser.cc -o parser.o >/dev/null 2>&1
+mv -f .deps/parser.Tpo .deps/parser.Plo
+/bin/sh ../libtool --tag=CXX   --mode=link g++ -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -version-info 6:0:0 -export-dynamic -no-undefined  -o libprotobuf.la -rpath /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib common.lo once.lo hash.lo extension_set.lo generated_message_util.lo message_lite.lo repeated_field.lo wire_format_lite.lo coded_stream.lo zero_copy_stream.lo zero_copy_stream_impl_lite.lo strutil.lo substitute.lo structurally_valid.lo descriptor.lo descriptor.pb.lo descriptor_database.lo dynamic_message.lo extension_set_heavy.lo generated_message_reflection.lo message.lo reflection_ops.lo service.lo text_format.lo unknown_field_set.lo wire_format.lo gzip_stream.lo printer.lo tokenizer.lo zero_copy_stream_impl.lo importer.lo parser.lo  
+libtool: link: g++ -shared -nostdlib /usr/lib64/../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbeginS.o  .libs/common.o .libs/once.o .libs/hash.o .libs/extension_set.o .libs/generated_message_util.o .libs/message_lite.o .libs/repeated_field.o .libs/wire_format_lite.o .libs/coded_stream.o .libs/zero_copy_stream.o .libs/zero_copy_stream_impl_lite.o .libs/strutil.o .libs/substitute.o .libs/structurally_valid.o .libs/descriptor.o .libs/descriptor.pb.o .libs/descriptor_database.o .libs/dynamic_message.o .libs/extension_set_heavy.o .libs/generated_message_reflection.o .libs/message.o .libs/reflection_ops.o .libs/service.o .libs/text_format.o .libs/unknown_field_set.o .libs/wire_format.o .libs/gzip_stream.o .libs/printer.o .libs/tokenizer.o .libs/zero_copy_stream_impl.o .libs/importer.o .libs/parser.o   -L/usr/lib64/../lib64 -L/usr/lib/../lib64 -L/home/blinkchen/lib64/../lib64 -L/home/blinkchen/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/home/blinkchen/lib64 -L/home/blinkchen/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtendS.o /usr/lib64/../lib64/crtn.o  -pthread -m64   -pthread -Wl,-soname -Wl,libprotobuf.so.6 -o .libs/libprotobuf.so.6.0.0
+libtool: link: (cd ".libs" && rm -f "libprotobuf.so.6" && ln -s "libprotobuf.so.6.0.0" "libprotobuf.so.6")
+libtool: link: (cd ".libs" && rm -f "libprotobuf.so" && ln -s "libprotobuf.so.6.0.0" "libprotobuf.so")
+libtool: link: ar cru .libs/libprotobuf.a  common.o once.o hash.o extension_set.o generated_message_util.o message_lite.o repeated_field.o wire_format_lite.o coded_stream.o zero_copy_stream.o zero_copy_stream_impl_lite.o strutil.o substitute.o structurally_valid.o descriptor.o descriptor.pb.o descriptor_database.o dynamic_message.o extension_set_heavy.o generated_message_reflection.o message.o reflection_ops.o service.o text_format.o unknown_field_set.o wire_format.o gzip_stream.o printer.o tokenizer.o zero_copy_stream_impl.o importer.o parser.o
+libtool: link: ranlib .libs/libprotobuf.a
+libtool: link: ( cd ".libs" && rm -f "libprotobuf.la" && ln -s "../libprotobuf.la" "libprotobuf.la" )
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT code_generator.lo -MD -MP -MF .deps/code_generator.Tpo -c -o code_generator.lo `test -f 'google/protobuf/compiler/code_generator.cc' || echo './'`google/protobuf/compiler/code_generator.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT code_generator.lo -MD -MP -MF .deps/code_generator.Tpo -c google/protobuf/compiler/code_generator.cc  -fPIC -DPIC -o .libs/code_generator.o
+In file included from ./google/protobuf/compiler/code_generator.h:41:0,
+                 from google/protobuf/compiler/code_generator.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT code_generator.lo -MD -MP -MF .deps/code_generator.Tpo -c google/protobuf/compiler/code_generator.cc -o code_generator.o >/dev/null 2>&1
+mv -f .deps/code_generator.Tpo .deps/code_generator.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT command_line_interface.lo -MD -MP -MF .deps/command_line_interface.Tpo -c -o command_line_interface.lo `test -f 'google/protobuf/compiler/command_line_interface.cc' || echo './'`google/protobuf/compiler/command_line_interface.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT command_line_interface.lo -MD -MP -MF .deps/command_line_interface.Tpo -c google/protobuf/compiler/command_line_interface.cc  -fPIC -DPIC -o .libs/command_line_interface.o
+In file included from ./google/protobuf/compiler/command_line_interface.h:41:0,
+                 from google/protobuf/compiler/command_line_interface.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT command_line_interface.lo -MD -MP -MF .deps/command_line_interface.Tpo -c google/protobuf/compiler/command_line_interface.cc -o command_line_interface.o >/dev/null 2>&1
+mv -f .deps/command_line_interface.Tpo .deps/command_line_interface.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT plugin.lo -MD -MP -MF .deps/plugin.Tpo -c -o plugin.lo `test -f 'google/protobuf/compiler/plugin.cc' || echo './'`google/protobuf/compiler/plugin.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT plugin.lo -MD -MP -MF .deps/plugin.Tpo -c google/protobuf/compiler/plugin.cc  -fPIC -DPIC -o .libs/plugin.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT plugin.lo -MD -MP -MF .deps/plugin.Tpo -c google/protobuf/compiler/plugin.cc -o plugin.o >/dev/null 2>&1
+mv -f .deps/plugin.Tpo .deps/plugin.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT plugin.pb.lo -MD -MP -MF .deps/plugin.pb.Tpo -c -o plugin.pb.lo `test -f 'google/protobuf/compiler/plugin.pb.cc' || echo './'`google/protobuf/compiler/plugin.pb.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT plugin.pb.lo -MD -MP -MF .deps/plugin.pb.Tpo -c google/protobuf/compiler/plugin.pb.cc  -fPIC -DPIC -o .libs/plugin.pb.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT plugin.pb.lo -MD -MP -MF .deps/plugin.pb.Tpo -c google/protobuf/compiler/plugin.pb.cc -o plugin.pb.o >/dev/null 2>&1
+mv -f .deps/plugin.pb.Tpo .deps/plugin.pb.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT subprocess.lo -MD -MP -MF .deps/subprocess.Tpo -c -o subprocess.lo `test -f 'google/protobuf/compiler/subprocess.cc' || echo './'`google/protobuf/compiler/subprocess.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT subprocess.lo -MD -MP -MF .deps/subprocess.Tpo -c google/protobuf/compiler/subprocess.cc  -fPIC -DPIC -o .libs/subprocess.o
+In file included from ./google/protobuf/compiler/subprocess.h:45:0,
+                 from google/protobuf/compiler/subprocess.cc:33:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT subprocess.lo -MD -MP -MF .deps/subprocess.Tpo -c google/protobuf/compiler/subprocess.cc -o subprocess.o >/dev/null 2>&1
+mv -f .deps/subprocess.Tpo .deps/subprocess.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT zip_writer.lo -MD -MP -MF .deps/zip_writer.Tpo -c -o zip_writer.lo `test -f 'google/protobuf/compiler/zip_writer.cc' || echo './'`google/protobuf/compiler/zip_writer.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zip_writer.lo -MD -MP -MF .deps/zip_writer.Tpo -c google/protobuf/compiler/zip_writer.cc  -fPIC -DPIC -o .libs/zip_writer.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT zip_writer.lo -MD -MP -MF .deps/zip_writer.Tpo -c google/protobuf/compiler/zip_writer.cc -o zip_writer.o >/dev/null 2>&1
+mv -f .deps/zip_writer.Tpo .deps/zip_writer.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_enum.lo -MD -MP -MF .deps/cpp_enum.Tpo -c -o cpp_enum.lo `test -f 'google/protobuf/compiler/cpp/cpp_enum.cc' || echo './'`google/protobuf/compiler/cpp/cpp_enum.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_enum.lo -MD -MP -MF .deps/cpp_enum.Tpo -c google/protobuf/compiler/cpp/cpp_enum.cc  -fPIC -DPIC -o .libs/cpp_enum.o
+In file included from ./google/protobuf/descriptor.h:59:0,
+                 from ./google/protobuf/compiler/cpp/cpp_enum.h:39,
+                 from google/protobuf/compiler/cpp/cpp_enum.cc:38:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_enum.lo -MD -MP -MF .deps/cpp_enum.Tpo -c google/protobuf/compiler/cpp/cpp_enum.cc -o cpp_enum.o >/dev/null 2>&1
+mv -f .deps/cpp_enum.Tpo .deps/cpp_enum.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_enum_field.lo -MD -MP -MF .deps/cpp_enum_field.Tpo -c -o cpp_enum_field.lo `test -f 'google/protobuf/compiler/cpp/cpp_enum_field.cc' || echo './'`google/protobuf/compiler/cpp/cpp_enum_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_enum_field.lo -MD -MP -MF .deps/cpp_enum_field.Tpo -c google/protobuf/compiler/cpp/cpp_enum_field.cc  -fPIC -DPIC -o .libs/cpp_enum_field.o
+In file included from ./google/protobuf/compiler/cpp/cpp_field.h:41:0,
+                 from ./google/protobuf/compiler/cpp/cpp_enum_field.h:40,
+                 from google/protobuf/compiler/cpp/cpp_enum_field.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_enum_field.lo -MD -MP -MF .deps/cpp_enum_field.Tpo -c google/protobuf/compiler/cpp/cpp_enum_field.cc -o cpp_enum_field.o >/dev/null 2>&1
+mv -f .deps/cpp_enum_field.Tpo .deps/cpp_enum_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_extension.lo -MD -MP -MF .deps/cpp_extension.Tpo -c -o cpp_extension.lo `test -f 'google/protobuf/compiler/cpp/cpp_extension.cc' || echo './'`google/protobuf/compiler/cpp/cpp_extension.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_extension.lo -MD -MP -MF .deps/cpp_extension.Tpo -c google/protobuf/compiler/cpp/cpp_extension.cc  -fPIC -DPIC -o .libs/cpp_extension.o
+In file included from ./google/protobuf/compiler/cpp/cpp_extension.h:39:0,
+                 from google/protobuf/compiler/cpp/cpp_extension.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_extension.lo -MD -MP -MF .deps/cpp_extension.Tpo -c google/protobuf/compiler/cpp/cpp_extension.cc -o cpp_extension.o >/dev/null 2>&1
+mv -f .deps/cpp_extension.Tpo .deps/cpp_extension.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_field.lo -MD -MP -MF .deps/cpp_field.Tpo -c -o cpp_field.lo `test -f 'google/protobuf/compiler/cpp/cpp_field.cc' || echo './'`google/protobuf/compiler/cpp/cpp_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_field.lo -MD -MP -MF .deps/cpp_field.Tpo -c google/protobuf/compiler/cpp/cpp_field.cc  -fPIC -DPIC -o .libs/cpp_field.o
+In file included from ./google/protobuf/compiler/cpp/cpp_field.h:41:0,
+                 from google/protobuf/compiler/cpp/cpp_field.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_field.lo -MD -MP -MF .deps/cpp_field.Tpo -c google/protobuf/compiler/cpp/cpp_field.cc -o cpp_field.o >/dev/null 2>&1
+mv -f .deps/cpp_field.Tpo .deps/cpp_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_file.lo -MD -MP -MF .deps/cpp_file.Tpo -c -o cpp_file.lo `test -f 'google/protobuf/compiler/cpp/cpp_file.cc' || echo './'`google/protobuf/compiler/cpp/cpp_file.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_file.lo -MD -MP -MF .deps/cpp_file.Tpo -c google/protobuf/compiler/cpp/cpp_file.cc  -fPIC -DPIC -o .libs/cpp_file.o
+In file included from ./google/protobuf/compiler/cpp/cpp_file.h:40:0,
+                 from google/protobuf/compiler/cpp/cpp_file.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_file.lo -MD -MP -MF .deps/cpp_file.Tpo -c google/protobuf/compiler/cpp/cpp_file.cc -o cpp_file.o >/dev/null 2>&1
+mv -f .deps/cpp_file.Tpo .deps/cpp_file.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_generator.lo -MD -MP -MF .deps/cpp_generator.Tpo -c -o cpp_generator.lo `test -f 'google/protobuf/compiler/cpp/cpp_generator.cc' || echo './'`google/protobuf/compiler/cpp/cpp_generator.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_generator.lo -MD -MP -MF .deps/cpp_generator.Tpo -c google/protobuf/compiler/cpp/cpp_generator.cc  -fPIC -DPIC -o .libs/cpp_generator.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_generator.lo -MD -MP -MF .deps/cpp_generator.Tpo -c google/protobuf/compiler/cpp/cpp_generator.cc -o cpp_generator.o >/dev/null 2>&1
+mv -f .deps/cpp_generator.Tpo .deps/cpp_generator.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_helpers.lo -MD -MP -MF .deps/cpp_helpers.Tpo -c -o cpp_helpers.lo `test -f 'google/protobuf/compiler/cpp/cpp_helpers.cc' || echo './'`google/protobuf/compiler/cpp/cpp_helpers.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_helpers.lo -MD -MP -MF .deps/cpp_helpers.Tpo -c google/protobuf/compiler/cpp/cpp_helpers.cc  -fPIC -DPIC -o .libs/cpp_helpers.o
+In file included from ./google/protobuf/stubs/hash.h:39:0,
+                 from google/protobuf/compiler/cpp/cpp_helpers.cc:37:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_helpers.lo -MD -MP -MF .deps/cpp_helpers.Tpo -c google/protobuf/compiler/cpp/cpp_helpers.cc -o cpp_helpers.o >/dev/null 2>&1
+mv -f .deps/cpp_helpers.Tpo .deps/cpp_helpers.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_message.lo -MD -MP -MF .deps/cpp_message.Tpo -c -o cpp_message.lo `test -f 'google/protobuf/compiler/cpp/cpp_message.cc' || echo './'`google/protobuf/compiler/cpp/cpp_message.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_message.lo -MD -MP -MF .deps/cpp_message.Tpo -c google/protobuf/compiler/cpp/cpp_message.cc  -fPIC -DPIC -o .libs/cpp_message.o
+In file included from ./google/protobuf/stubs/hash.h:39:0,
+                 from google/protobuf/compiler/cpp/cpp_message.cc:36:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_message.lo -MD -MP -MF .deps/cpp_message.Tpo -c google/protobuf/compiler/cpp/cpp_message.cc -o cpp_message.o >/dev/null 2>&1
+mv -f .deps/cpp_message.Tpo .deps/cpp_message.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_message_field.lo -MD -MP -MF .deps/cpp_message_field.Tpo -c -o cpp_message_field.lo `test -f 'google/protobuf/compiler/cpp/cpp_message_field.cc' || echo './'`google/protobuf/compiler/cpp/cpp_message_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_message_field.lo -MD -MP -MF .deps/cpp_message_field.Tpo -c google/protobuf/compiler/cpp/cpp_message_field.cc  -fPIC -DPIC -o .libs/cpp_message_field.o
+In file included from ./google/protobuf/compiler/cpp/cpp_field.h:41:0,
+                 from ./google/protobuf/compiler/cpp/cpp_message_field.h:40,
+                 from google/protobuf/compiler/cpp/cpp_message_field.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_message_field.lo -MD -MP -MF .deps/cpp_message_field.Tpo -c google/protobuf/compiler/cpp/cpp_message_field.cc -o cpp_message_field.o >/dev/null 2>&1
+mv -f .deps/cpp_message_field.Tpo .deps/cpp_message_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_primitive_field.lo -MD -MP -MF .deps/cpp_primitive_field.Tpo -c -o cpp_primitive_field.lo `test -f 'google/protobuf/compiler/cpp/cpp_primitive_field.cc' || echo './'`google/protobuf/compiler/cpp/cpp_primitive_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_primitive_field.lo -MD -MP -MF .deps/cpp_primitive_field.Tpo -c google/protobuf/compiler/cpp/cpp_primitive_field.cc  -fPIC -DPIC -o .libs/cpp_primitive_field.o
+In file included from ./google/protobuf/compiler/cpp/cpp_field.h:41:0,
+                 from ./google/protobuf/compiler/cpp/cpp_primitive_field.h:40,
+                 from google/protobuf/compiler/cpp/cpp_primitive_field.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_primitive_field.lo -MD -MP -MF .deps/cpp_primitive_field.Tpo -c google/protobuf/compiler/cpp/cpp_primitive_field.cc -o cpp_primitive_field.o >/dev/null 2>&1
+mv -f .deps/cpp_primitive_field.Tpo .deps/cpp_primitive_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_service.lo -MD -MP -MF .deps/cpp_service.Tpo -c -o cpp_service.lo `test -f 'google/protobuf/compiler/cpp/cpp_service.cc' || echo './'`google/protobuf/compiler/cpp/cpp_service.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_service.lo -MD -MP -MF .deps/cpp_service.Tpo -c google/protobuf/compiler/cpp/cpp_service.cc  -fPIC -DPIC -o .libs/cpp_service.o
+In file included from ./google/protobuf/compiler/cpp/cpp_service.h:40:0,
+                 from google/protobuf/compiler/cpp/cpp_service.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_service.lo -MD -MP -MF .deps/cpp_service.Tpo -c google/protobuf/compiler/cpp/cpp_service.cc -o cpp_service.o >/dev/null 2>&1
+mv -f .deps/cpp_service.Tpo .deps/cpp_service.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT cpp_string_field.lo -MD -MP -MF .deps/cpp_string_field.Tpo -c -o cpp_string_field.lo `test -f 'google/protobuf/compiler/cpp/cpp_string_field.cc' || echo './'`google/protobuf/compiler/cpp/cpp_string_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_string_field.lo -MD -MP -MF .deps/cpp_string_field.Tpo -c google/protobuf/compiler/cpp/cpp_string_field.cc  -fPIC -DPIC -o .libs/cpp_string_field.o
+In file included from ./google/protobuf/compiler/cpp/cpp_field.h:41:0,
+                 from ./google/protobuf/compiler/cpp/cpp_string_field.h:40,
+                 from google/protobuf/compiler/cpp/cpp_string_field.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT cpp_string_field.lo -MD -MP -MF .deps/cpp_string_field.Tpo -c google/protobuf/compiler/cpp/cpp_string_field.cc -o cpp_string_field.o >/dev/null 2>&1
+mv -f .deps/cpp_string_field.Tpo .deps/cpp_string_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_enum.lo -MD -MP -MF .deps/java_enum.Tpo -c -o java_enum.lo `test -f 'google/protobuf/compiler/java/java_enum.cc' || echo './'`google/protobuf/compiler/java/java_enum.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_enum.lo -MD -MP -MF .deps/java_enum.Tpo -c google/protobuf/compiler/java/java_enum.cc  -fPIC -DPIC -o .libs/java_enum.o
+In file included from ./google/protobuf/descriptor.h:59:0,
+                 from ./google/protobuf/compiler/java/java_enum.h:40,
+                 from google/protobuf/compiler/java/java_enum.cc:38:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_enum.lo -MD -MP -MF .deps/java_enum.Tpo -c google/protobuf/compiler/java/java_enum.cc -o java_enum.o >/dev/null 2>&1
+mv -f .deps/java_enum.Tpo .deps/java_enum.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_enum_field.lo -MD -MP -MF .deps/java_enum_field.Tpo -c -o java_enum_field.lo `test -f 'google/protobuf/compiler/java/java_enum_field.cc' || echo './'`google/protobuf/compiler/java/java_enum_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_enum_field.lo -MD -MP -MF .deps/java_enum_field.Tpo -c google/protobuf/compiler/java/java_enum_field.cc  -fPIC -DPIC -o .libs/java_enum_field.o
+In file included from ./google/protobuf/compiler/java/java_field.h:39:0,
+                 from ./google/protobuf/compiler/java/java_enum_field.h:40,
+                 from google/protobuf/compiler/java/java_enum_field.cc:38:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_enum_field.lo -MD -MP -MF .deps/java_enum_field.Tpo -c google/protobuf/compiler/java/java_enum_field.cc -o java_enum_field.o >/dev/null 2>&1
+mv -f .deps/java_enum_field.Tpo .deps/java_enum_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_extension.lo -MD -MP -MF .deps/java_extension.Tpo -c -o java_extension.lo `test -f 'google/protobuf/compiler/java/java_extension.cc' || echo './'`google/protobuf/compiler/java/java_extension.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_extension.lo -MD -MP -MF .deps/java_extension.Tpo -c google/protobuf/compiler/java/java_extension.cc  -fPIC -DPIC -o .libs/java_extension.o
+In file included from ./google/protobuf/compiler/java/java_extension.h:40:0,
+                 from google/protobuf/compiler/java/java_extension.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_extension.lo -MD -MP -MF .deps/java_extension.Tpo -c google/protobuf/compiler/java/java_extension.cc -o java_extension.o >/dev/null 2>&1
+mv -f .deps/java_extension.Tpo .deps/java_extension.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_field.lo -MD -MP -MF .deps/java_field.Tpo -c -o java_field.lo `test -f 'google/protobuf/compiler/java/java_field.cc' || echo './'`google/protobuf/compiler/java/java_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_field.lo -MD -MP -MF .deps/java_field.Tpo -c google/protobuf/compiler/java/java_field.cc  -fPIC -DPIC -o .libs/java_field.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_field.lo -MD -MP -MF .deps/java_field.Tpo -c google/protobuf/compiler/java/java_field.cc -o java_field.o >/dev/null 2>&1
+mv -f .deps/java_field.Tpo .deps/java_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_file.lo -MD -MP -MF .deps/java_file.Tpo -c -o java_file.lo `test -f 'google/protobuf/compiler/java/java_file.cc' || echo './'`google/protobuf/compiler/java/java_file.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_file.lo -MD -MP -MF .deps/java_file.Tpo -c google/protobuf/compiler/java/java_file.cc  -fPIC -DPIC -o .libs/java_file.o
+In file included from ./google/protobuf/compiler/java/java_file.h:40:0,
+                 from google/protobuf/compiler/java/java_file.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_file.lo -MD -MP -MF .deps/java_file.Tpo -c google/protobuf/compiler/java/java_file.cc -o java_file.o >/dev/null 2>&1
+mv -f .deps/java_file.Tpo .deps/java_file.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_generator.lo -MD -MP -MF .deps/java_generator.Tpo -c -o java_generator.lo `test -f 'google/protobuf/compiler/java/java_generator.cc' || echo './'`google/protobuf/compiler/java/java_generator.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_generator.lo -MD -MP -MF .deps/java_generator.Tpo -c google/protobuf/compiler/java/java_generator.cc  -fPIC -DPIC -o .libs/java_generator.o
+In file included from ./google/protobuf/compiler/code_generator.h:41:0,
+                 from ./google/protobuf/compiler/java/java_generator.h:41,
+                 from google/protobuf/compiler/java/java_generator.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_generator.lo -MD -MP -MF .deps/java_generator.Tpo -c google/protobuf/compiler/java/java_generator.cc -o java_generator.o >/dev/null 2>&1
+mv -f .deps/java_generator.Tpo .deps/java_generator.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_helpers.lo -MD -MP -MF .deps/java_helpers.Tpo -c -o java_helpers.lo `test -f 'google/protobuf/compiler/java/java_helpers.cc' || echo './'`google/protobuf/compiler/java/java_helpers.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_helpers.lo -MD -MP -MF .deps/java_helpers.Tpo -c google/protobuf/compiler/java/java_helpers.cc  -fPIC -DPIC -o .libs/java_helpers.o
+In file included from ./google/protobuf/descriptor.pb.h:9:0,
+                 from ./google/protobuf/compiler/java/java_helpers.h:39,
+                 from google/protobuf/compiler/java/java_helpers.cc:38:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_helpers.lo -MD -MP -MF .deps/java_helpers.Tpo -c google/protobuf/compiler/java/java_helpers.cc -o java_helpers.o >/dev/null 2>&1
+mv -f .deps/java_helpers.Tpo .deps/java_helpers.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_message.lo -MD -MP -MF .deps/java_message.Tpo -c -o java_message.lo `test -f 'google/protobuf/compiler/java/java_message.cc' || echo './'`google/protobuf/compiler/java/java_message.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_message.lo -MD -MP -MF .deps/java_message.Tpo -c google/protobuf/compiler/java/java_message.cc  -fPIC -DPIC -o .libs/java_message.o
+In file included from ./google/protobuf/stubs/hash.h:39:0,
+                 from google/protobuf/compiler/java/java_message.cc:36:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_message.lo -MD -MP -MF .deps/java_message.Tpo -c google/protobuf/compiler/java/java_message.cc -o java_message.o >/dev/null 2>&1
+mv -f .deps/java_message.Tpo .deps/java_message.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_message_field.lo -MD -MP -MF .deps/java_message_field.Tpo -c -o java_message_field.lo `test -f 'google/protobuf/compiler/java/java_message_field.cc' || echo './'`google/protobuf/compiler/java/java_message_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_message_field.lo -MD -MP -MF .deps/java_message_field.Tpo -c google/protobuf/compiler/java/java_message_field.cc  -fPIC -DPIC -o .libs/java_message_field.o
+In file included from ./google/protobuf/compiler/java/java_field.h:39:0,
+                 from ./google/protobuf/compiler/java/java_message_field.h:40,
+                 from google/protobuf/compiler/java/java_message_field.cc:38:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_message_field.lo -MD -MP -MF .deps/java_message_field.Tpo -c google/protobuf/compiler/java/java_message_field.cc -o java_message_field.o >/dev/null 2>&1
+mv -f .deps/java_message_field.Tpo .deps/java_message_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_primitive_field.lo -MD -MP -MF .deps/java_primitive_field.Tpo -c -o java_primitive_field.lo `test -f 'google/protobuf/compiler/java/java_primitive_field.cc' || echo './'`google/protobuf/compiler/java/java_primitive_field.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_primitive_field.lo -MD -MP -MF .deps/java_primitive_field.Tpo -c google/protobuf/compiler/java/java_primitive_field.cc  -fPIC -DPIC -o .libs/java_primitive_field.o
+In file included from ./google/protobuf/compiler/java/java_field.h:39:0,
+                 from ./google/protobuf/compiler/java/java_primitive_field.h:40,
+                 from google/protobuf/compiler/java/java_primitive_field.cc:38:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_primitive_field.lo -MD -MP -MF .deps/java_primitive_field.Tpo -c google/protobuf/compiler/java/java_primitive_field.cc -o java_primitive_field.o >/dev/null 2>&1
+mv -f .deps/java_primitive_field.Tpo .deps/java_primitive_field.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT java_service.lo -MD -MP -MF .deps/java_service.Tpo -c -o java_service.lo `test -f 'google/protobuf/compiler/java/java_service.cc' || echo './'`google/protobuf/compiler/java/java_service.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_service.lo -MD -MP -MF .deps/java_service.Tpo -c google/protobuf/compiler/java/java_service.cc  -fPIC -DPIC -o .libs/java_service.o
+In file included from ./google/protobuf/descriptor.h:59:0,
+                 from ./google/protobuf/compiler/java/java_service.h:39,
+                 from google/protobuf/compiler/java/java_service.cc:35:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT java_service.lo -MD -MP -MF .deps/java_service.Tpo -c google/protobuf/compiler/java/java_service.cc -o java_service.o >/dev/null 2>&1
+mv -f .deps/java_service.Tpo .deps/java_service.Plo
+/bin/sh ../libtool --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I. -I..   -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -MT python_generator.lo -MD -MP -MF .deps/python_generator.Tpo -c -o python_generator.lo `test -f 'google/protobuf/compiler/python/python_generator.cc' || echo './'`google/protobuf/compiler/python/python_generator.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT python_generator.lo -MD -MP -MF .deps/python_generator.Tpo -c google/protobuf/compiler/python/python_generator.cc  -fPIC -DPIC -o .libs/python_generator.o
+In file included from ./google/protobuf/compiler/code_generator.h:41:0,
+                 from ./google/protobuf/compiler/python/python_generator.h:40,
+                 from google/protobuf/compiler/python/python_generator.cc:51:
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::int64 google::protobuf::strto64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:309:25: warning: typedef ‘sizeof_int64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_int64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+./google/protobuf/stubs/strutil.h: In function ‘google::protobuf::uint64 google::protobuf::strtou64(const char*, char**, int)’:
+./google/protobuf/stubs/strutil.h:315:25: warning: typedef ‘sizeof_uint64_is_not_sizeof_long_long’ locally defined but not used [-Wunused-local-typedefs]
+                         sizeof_uint64_is_not_sizeof_long_long);
+                         ^
+./google/protobuf/stubs/common.h:352:11: note: in definition of macro ‘GOOGLE_COMPILE_ASSERT’
+           msg[bool(expr) ? 1 : -1]
+           ^
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I.. -g -O2 -m64 -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -MT python_generator.lo -MD -MP -MF .deps/python_generator.Tpo -c google/protobuf/compiler/python/python_generator.cc -o python_generator.o >/dev/null 2>&1
+mv -f .deps/python_generator.Tpo .deps/python_generator.Plo
+/bin/sh ../libtool --tag=CXX   --mode=link g++ -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -version-info 6:0:0 -export-dynamic -no-undefined  -o libprotoc.la -rpath /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib code_generator.lo command_line_interface.lo plugin.lo plugin.pb.lo subprocess.lo zip_writer.lo cpp_enum.lo cpp_enum_field.lo cpp_extension.lo cpp_field.lo cpp_file.lo cpp_generator.lo cpp_helpers.lo cpp_message.lo cpp_message_field.lo cpp_primitive_field.lo cpp_service.lo cpp_string_field.lo java_enum.lo java_enum_field.lo java_extension.lo java_field.lo java_file.lo java_generator.lo java_helpers.lo java_message.lo java_message_field.lo java_primitive_field.lo java_service.lo python_generator.lo  libprotobuf.la 
+libtool: link: g++ -shared -nostdlib /usr/lib64/../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbeginS.o  .libs/code_generator.o .libs/command_line_interface.o .libs/plugin.o .libs/plugin.pb.o .libs/subprocess.o .libs/zip_writer.o .libs/cpp_enum.o .libs/cpp_enum_field.o .libs/cpp_extension.o .libs/cpp_field.o .libs/cpp_file.o .libs/cpp_generator.o .libs/cpp_helpers.o .libs/cpp_message.o .libs/cpp_message_field.o .libs/cpp_primitive_field.o .libs/cpp_service.o .libs/cpp_string_field.o .libs/java_enum.o .libs/java_enum_field.o .libs/java_extension.o .libs/java_field.o .libs/java_file.o .libs/java_generator.o .libs/java_helpers.o .libs/java_message.o .libs/java_message_field.o .libs/java_primitive_field.o .libs/java_service.o .libs/python_generator.o   -Wl,-rpath -Wl,/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src/.libs -Wl,-rpath -Wl,/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib ./.libs/libprotobuf.so -L/usr/lib64/../lib64 -L/usr/lib/../lib64 -L/home/blinkchen/lib64/../lib64 -L/home/blinkchen/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/home/blinkchen/lib64 -L/home/blinkchen/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtendS.o /usr/lib64/../lib64/crtn.o  -pthread -m64   -pthread -Wl,-soname -Wl,libprotoc.so.6 -o .libs/libprotoc.so.6.0.0
+libtool: link: (cd ".libs" && rm -f "libprotoc.so.6" && ln -s "libprotoc.so.6.0.0" "libprotoc.so.6")
+libtool: link: (cd ".libs" && rm -f "libprotoc.so" && ln -s "libprotoc.so.6.0.0" "libprotoc.so")
+libtool: link: ar cru .libs/libprotoc.a  code_generator.o command_line_interface.o plugin.o plugin.pb.o subprocess.o zip_writer.o cpp_enum.o cpp_enum_field.o cpp_extension.o cpp_field.o cpp_file.o cpp_generator.o cpp_helpers.o cpp_message.o cpp_message_field.o cpp_primitive_field.o cpp_service.o cpp_string_field.o java_enum.o java_enum_field.o java_extension.o java_field.o java_file.o java_generator.o java_helpers.o java_message.o java_message_field.o java_primitive_field.o java_service.o python_generator.o
+libtool: link: ranlib .libs/libprotoc.a
+libtool: link: ( cd ".libs" && rm -f "libprotoc.la" && ln -s "../libprotoc.la" "libprotoc.la" )
+/bin/sh ../libtool --tag=CXX   --mode=link g++ -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -pthread  -o protoc main.o  libprotobuf.la libprotoc.la 
+libtool: link: g++ -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare -g -O2 -m64 -pthread -o .libs/protoc main.o  ./.libs/libprotobuf.so ./.libs/libprotoc.so /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src/.libs/libprotobuf.so -pthread -Wl,-rpath -Wl,/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib
+oldpwd=`pwd` && ( cd . && $oldpwd/protoc -I. --cpp_out=$oldpwd google/protobuf/unittest.proto google/protobuf/unittest_empty.proto google/protobuf/unittest_import.proto google/protobuf/unittest_mset.proto google/protobuf/unittest_optimize_for.proto google/protobuf/unittest_embed_optimize_for.proto google/protobuf/unittest_custom_options.proto google/protobuf/unittest_lite.proto google/protobuf/unittest_import_lite.proto google/protobuf/unittest_lite_imports_nonlite.proto google/protobuf/unittest_no_generic_services.proto google/protobuf/compiler/cpp/cpp_test_bad_identifiers.proto )
+touch unittest_proto_middleman
+make  all-am
+make[3]: Entering directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+/bin/sh ../libtool --tag=CXX   --mode=link g++ -pthread -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare  -g -O2 -m64 -version-info 6:0:0 -export-dynamic -no-undefined  -o libprotobuf-lite.la -rpath /home/blinkchen/workspace/thirdparty/protobuf-2.3.0/tmp//lib common.lo once.lo hash.lo extension_set.lo generated_message_util.lo message_lite.lo repeated_field.lo wire_format_lite.lo coded_stream.lo zero_copy_stream.lo zero_copy_stream_impl_lite.lo  
+libtool: link: g++ -shared -nostdlib /usr/lib64/../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbeginS.o  .libs/common.o .libs/once.o .libs/hash.o .libs/extension_set.o .libs/generated_message_util.o .libs/message_lite.o .libs/repeated_field.o .libs/wire_format_lite.o .libs/coded_stream.o .libs/zero_copy_stream.o .libs/zero_copy_stream_impl_lite.o   -L/usr/lib64/../lib64 -L/usr/lib/../lib64 -L/home/blinkchen/lib64/../lib64 -L/home/blinkchen/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/home/blinkchen/lib64 -L/home/blinkchen/lib -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtendS.o /usr/lib64/../lib64/crtn.o  -pthread -m64   -pthread -Wl,-soname -Wl,libprotobuf-lite.so.6 -o .libs/libprotobuf-lite.so.6.0.0
+libtool: link: (cd ".libs" && rm -f "libprotobuf-lite.so.6" && ln -s "libprotobuf-lite.so.6.0.0" "libprotobuf-lite.so.6")
+libtool: link: (cd ".libs" && rm -f "libprotobuf-lite.so" && ln -s "libprotobuf-lite.so.6.0.0" "libprotobuf-lite.so")
+libtool: link: ar cru .libs/libprotobuf-lite.a  common.o once.o hash.o extension_set.o generated_message_util.o message_lite.o repeated_field.o wire_format_lite.o coded_stream.o zero_copy_stream.o zero_copy_stream_impl_lite.o
+libtool: link: ranlib .libs/libprotobuf-lite.a
+libtool: link: ( cd ".libs" && rm -f "libprotobuf-lite.la" && ln -s "../libprotobuf-lite.la" "libprotobuf-lite.la" )
+make[3]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+make[2]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0/src'
+make[1]: Leaving directory `/home/blinkchen/workspace/thirdparty/protobuf-2.3.0/protobuf-2.3.0'

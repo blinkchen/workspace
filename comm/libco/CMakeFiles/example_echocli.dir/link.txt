@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/example_echocli.dir/example_echocli.cpp.o  -o example_echocli -rdynamic libcolib.a -lpthread -ldl 
